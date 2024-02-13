@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Launch Web Server",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--manifest-path", "${workspaceFolder}/todo/Cargo.toml",
+                ],
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}/todo"
+        }
+    ]
+}
