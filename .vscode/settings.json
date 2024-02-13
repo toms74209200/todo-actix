@@ -1,5 +1,10 @@
 {
     "[rust]": {
         "editor.formatOnSave": true,
-    }
+    },
+    "python.testing.pytestArgs": [
+        "test"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
 }
