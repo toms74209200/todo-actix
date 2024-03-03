@@ -7,8 +7,9 @@
 	"features": {
 		"ghcr.io/devcontainers/features/python:1": {
 			"version": "latest"
-		}
-	}
+		},
+		"ghcr.io/warrenbuckley/codespace-features/sqlite:latest": {}
+	},
 
 	// Use 'mounts' to make the cargo cache persistent in a Docker Volume.
 	// "mounts": [
